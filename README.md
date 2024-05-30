@@ -8,13 +8,17 @@ This repository is an implementation of three simple sorting algorithms: Bubble 
 1. Make sure you have the C compiler installed on your system.
 2. Clone this repository or download the file 
 3. Compile the code using the following command:
-   ``bash
+   
+   ```bash
    gcc 2208107010044_Simple_Sorting.c -o sorting
    ```
+   
 4. Run the compiled result:
+   
    ```bash
    ./sorting
    ```
+   
 5. The program will produce an output file in the `output` folder containing the numbers sorted by algorithm type and number.
 
 ## Functions in the Program Code
