@@ -1,57 +1,58 @@
 # Simple Sorting Algorithm
 
-## Deskripsi
-Repository ini merupakan implementasi dari tiga algoritma simple sorting: Bubble Sort, Selection Sort, dan Insertion Sort dalam bahasa C. Pada program ini akan dilakukan proses generate bilangan secara acak sebanyak 1 juta bilangan integer. Bilangan tersebut diurutkan secara bubble sort, selection sort dan insertion sort dan  bilangan yang belum terurut dan yang sudah terurut akan disimpan ke dalam file .txt.
+## Description
+This repository is an implementation of three simple sorting algorithms: Bubble Sort, Selection Sort, and Insertion Sort in C. This program will generate 1 million random integer numbers. The numbers are sorted by bubble sort, selection sort and insertion sort and the unsorted and sorted numbers will be saved into a .txt file.
 
-## Cara Menjalankan Kode Program
+## How to run the program code
 
-1. Pastikan Anda telah menginstal compiler C pada sistem Anda.
-2. Clone repositori ini atau download file 
-3. Kompilasi kode menggunakan perintah berikut:
-   ```bash
+1. Make sure you have the C compiler installed on your system.
+2. Clone this repository or download the file 
+3. Compile the code using the following command:
+   ``bash
    gcc 2208107010044_Simple_Sorting.c -o sorting
    ```
-4. Jalankan hasil yang telah dikompilasi:
+4. Run the compiled result:
    ```bash
    ./sorting
    ```
-5. Program akan menghasilkan file output dalam folder `output` yang berisi bilangan yang sudah diurutkan berdasarkan jenis algoritma dan jumlah bilangan.
+5. The program will produce an output file in the `output` folder containing the numbers sorted by algorithm type and number.
 
-## Fungsi-fungsi dalam Kode Program
+## Functions in the Program Code
 
 ### 1. `saveToFile`
-   - Fungsi untuk menyimpan array ke dalam file teks.
-   - Parameter:
-     - `arr`: Array bilangan integer yang akan disimpan.
-     - `n`: Jumlah elemen dalam array.
-     - `filename`: Nama file tujuan.
+   - Function to save the array into a text file.
+   - Parameters:
+     - `arr`: An array of integer numbers to be saved.
+     - `n`: The number of elements in the array.
+     - `filename`: The name of the destination file.
 
 ### 2. `bubbleSort`
-   - Fungsi untuk melakukan Bubble Sort pada array.
-   - Parameter:
-     - `arr`: Array bilangan integer yang akan diurutkan.
-     - `n`: Jumlah elemen dalam array.
-     - `filename`: Nama file untuk menyimpan hasil pengurutan.
+   - Function to perform Bubble Sort on the array.
+   - Parameters:
+     - `arr`: An array of integer numbers to be sorted.
+     - `n`: The number of elements in the array.
+     - `filename`: The name of the file to store the sort result.
 
 ### 3. `selectionSort`
-   - Fungsi untuk melakukan Selection Sort pada array.
-   - Parameter:
-     - `arr`: Array bilangan integer yang akan diurutkan.
-     - `n`: Jumlah elemen dalam array.
-     - `filename`: Nama file untuk menyimpan hasil pengurutan.
+   - Function to perform Selection Sort on the array.
+   - Parameters:
+     - `arr`: An array of integer numbers to be sorted.
+     - `n`: The number of elements in the array.
+     - `filename`: The name of the file to store the sort result.
 
 ### 4. `insertionSort`
-   - Fungsi untuk melakukan Insertion Sort pada array.
-   - Parameter:
-     - `arr`: Array bilangan integer yang akan diurutkan.
-     - `n`: Jumlah elemen dalam array.
-     - `filename`: Nama file untuk menyimpan hasil pengurutan.
+   - Function to perform Insertion Sort on the array.
+   - Parameters:
+     - `arr`: An array of integer numbers to be sorted.
+     - `n`: The number of elements in the array.
+     - `filename`: The name of the file to save the sort result.
 
 ### 5. `printTableBorder`
-   - Fungsi untuk mencetak garis tepi tabel pada output.
+   - The function to print the table border on the output.
 
 ### 6. `main`
-   - Fungsi utama yang menginisialisasi variabel, menghasilkan bilangan acak, menyimpan ke file input, melakukan pengurutan, dan mencetak hasil waktu eksekusi pada tabel.
+   - The main function that initializes variables, generates random numbers, saves to the input file, performs sorting, and prints the execution time result on the table.
 
-## Video menjalankan program
+## Demonstration video
 (https://youtu.be/zBETZBZkH7o).
+
